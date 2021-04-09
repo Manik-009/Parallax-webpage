@@ -3,6 +3,7 @@ body,html{
 	font-family: Yellowtail; 
     font-style: italic;
     font-weight: bold;
+	overflow:hidden;
     font-size: 25px;
     line-height: 1.6em;
     margin: 0;
