@@ -1,0 +1,107 @@
+body,html{
+	height: 100%;
+	font-family: Yellowtail; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.Img-1, .Img-2, .Img-3, .Img-4, .Img-5, .Img-6{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	opacity: 0.70;
+	background-attachment: fixed;
+
+}
+
+.Img-1{
+	background-image: url(Parallax-images/3rd.jpg);
+    min-height:100%;
+}
+.Img-2{
+	background-image: url(Parallax-images/2nd.jpg);
+    min-height:400px;
+}
+.Img-3{
+	background-image: url(Parallax-images/6th.jpg);
+    min-height:400px;
+}
+.Img-4{
+	background-image: url(Parallax-images/4th.jpg);
+    min-height:400px;
+}
+.Img-5{
+	background-image: url(Parallax-images/5th.jpg);
+    min-height:400px;
+}
+.Img-6{
+	background-image: url(Parallax-images/1st.jpg);
+    min-height:400px;
+}
+.Section-dark, .Section-light{
+	text-align: center;
+	padding: 10px;
+}
+.Section-dark{
+	background-color: black;
+	color: lightgrey;
+}
+.Section-dark h2{
+	font-size: 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.Section-dark p{
+	font-size: 30px;
+	line-height: 1.9em;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.Section-light h2{
+	font-size: 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.Section-light p{
+	font-size: 30px;
+	line-height: 1.9em;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.Text{
+	padding: 30px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	position: absolute;
+}
+.Border-1{
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	padding: 30px;
+	text-align: center;
+	background: black;
+}
+.Border-2{
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	padding: 30px;
+	text-align: center;
+    background: white;
+    color: black;
+}
+@media (max-width: 580px){
+.Img-1, .Img-2, .Img-3, .Img-4, .Img-5, .Img-6{
+	background-attachment: scroll;
+}
+}
